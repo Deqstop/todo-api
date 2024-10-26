@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Socket.IO Test</title>
+    <script src="/socket.io/socket.io.js"></script>
+    <!-- Carga Socket.IO -->
+  </head>
+  <body>
+    <h1>Prueba de WebSockets con Socket.IO</h1>
+    <input id="messageInput" type="text" placeholder="Escribe un mensaje..." />
+    <button id="sendButton">Enviar</button>
+    <div id="messages"></div>
+
+    <script>
+      const socket = io(); // Conéctate al servidor de WebSockets
+
+      // Maneja el evento de clic en el botón enviar
+      document.getElementById("sendButton").onclick = () => {
+        const message = document.getElementById("messageInput").value;
+        socket.emit("sendMessage", message); // Envía el mensaje al servidor
+        document.getElementById("messageInput").value = ""; // Limpia el campo de entrada
+      };
+
+      // Escucha el evento de mensaje recibido
+      socket.on("receiveMessage", (data) => {
+        const messagesDiv = document.getElementById("messages");
+        messagesDiv.innerHTML += `<p>${data}</p>`; // Muestra el mensaje en la página
+      });
+    </script>
+  </body>
+</html>
