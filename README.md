@@ -107,4 +107,4 @@ Recuerda reemplazar ```<URL_DEL_REPOSITORIO>``` con la URL real de tu repositori
 
 ## Reconocimientos:
 
-Proyecto desarrollado en el marco de la estrategia "Proyecto de Aula" de la Universidad de la Costa, en el programa de Ingeniería de Sistemas. Se desarrolló en colaboración con las asignaturas "Desarrollo Web II" y "Análisis de Tráfico en Redes". En el periodo académico 2024-2.
+Este proyecto fue desarrollado como parte de la estrategia "Proyecto de Aula" de la Universidad de la Costa, en el programa de Ingeniería de Sistemas. Su ejecución se realizó en colaboración con las asignaturas "Desarrollo Web II" y "Análisis de Tráfico en Redes", durante el periodo académico 2024-2.
