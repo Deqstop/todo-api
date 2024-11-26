@@ -104,3 +104,7 @@ Puedes utilizar herramientas como **Postman** para probar la API. Asegúrate de 
 
 ### Personalización
 Recuerda reemplazar ```<URL_DEL_REPOSITORIO>``` con la URL real de tu repositorio si es necesario.
+
+## Reconocimientos:
+
+Proyecto desarrollado en el marco de la estrategia "Proyecto de Aula" de la Universidad de la Costa, en el programa de Ingeniería de Sistemas. Se desarrolló en colaboración con las asignaturas "Desarrollo Web II" y "Análisis de Tráfico en Redes". En el periodo académico 2024-2.
